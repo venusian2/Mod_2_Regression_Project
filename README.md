@@ -24,11 +24,11 @@ There were many things that needed to be cleaned up in our Dataset. First we dro
 
 ## Statstical Tests
 
-*Two Sample T-test on two most populous jobs based on salary
-  *We Rejected the null hypothesis that these salaries were not statisticaly different from one another
-*Annova/MultiComparison Test on work location 
-  *We Rejected the null hypothesis that the salariies in each borough were not statistically different
-*Annova/MultiComparison Test on Pay Basis
-  *We Rejected the null hypothesis that the salaries in each pay Basis were not Statistically different
+* Two Sample T-test on two most populous jobs based on salary
+  * We Rejected the null hypothesis that these salaries were not statisticaly different from one another
+* Annova/MultiComparison Test on work location 
+  * We Rejected the null hypothesis that the salariies in each borough were not statistically different
+* Annova/MultiComparison Test on Pay Basis
+  * We Rejected the null hypothesis that the salaries in each pay Basis were not Statistically different
 
 
