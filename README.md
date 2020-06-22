@@ -22,13 +22,24 @@ There were over 3 million rows in our Dataset depicting the salaries for NYC Emp
 
 There were many things that needed to be cleaned up in our Dataset. First we dropped Fiscal Year 2014 from our dataset as it had very little data to use. We then created a new column to explore any relationhip between number of years worked for city and Salary. Upon investigating the Data for Teachers I found bi problem that needed to be fixed. Whenever a Teacher does extracurricular work they get paid per session and this shows up in an entirely different row from their yearly salary. I took all the money they made from this row and addded it in as OT in their respective yearly salary row. This one step got rid of a big chink of Data as teachers are one of the most common jobs in NYC. From here I fixed all of the Agency Names to reflect the overarching Agency that they belong to, as some were broken down into smaller components, mainly Community Board, Department of Eduaction, and District Attorney. The last step was getting rid of anyone that was not a full time workker as we only wanted to focus on this group.
 
-## Statstical Tests
+## Statistical Tests
 
 * Two Sample T-test on two most populous jobs based on salary
   * We Rejected the null hypothesis that these salaries were not statisticaly different from one another
 * Annova/MultiComparison Test on work location 
-  * We Rejected the null hypothesis that the salariies in each borough were not statistically different
+  * We Rejected the null hypothesis that the salaries in each borough were not statistically different
 * Annova/MultiComparison Test on Pay Basis
   * We Rejected the null hypothesis that the salaries in each pay Basis were not Statistically different
 
+
+## Feature Engineering
+
+This was the biggest limitation to this DataSet. We could not create too many features as a majority of the Data was categorical. We were able to create a feature pertaining to how many years the person worked for the City. Other than that we mainly had to work with Dummy variables, we createdd them for all of the different agencies. Upon looking at all the different jobs in the Title Description column we had to limit dummy variables as it the amount would overload the OLS model and not give us a model. To make a good model based on this data we created dummy variable for all of the Title Descriptions and then looped through all of them and found the Jobs that gave us the highest R_squared value when compared to Salary and added them in to our model. This greatly boosted the R_squared of our model.
+
+## Linear Models
+
+We did three different Regression Models, a Linear, a Lasso, and a Ridge. Once we tested each model for its corresponding RMSE we found that the Linear Regression gave us the best RMSE. In a weird occurence we did test the log of our target variable against our features and it produced a worse RMSE compared to the original Linear Regresssion however the R_Squared value was better. We did not know how to explain this occurence but decided to use the Linear Regression without taking the log of our target variable.
+
+## Conclusion
+ 
 
