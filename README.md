@@ -42,4 +42,4 @@ We did three different Regression Models, a Linear, a Lasso, and a Ridge. Once w
 
 ## Conclusion
  
-
+![](PNG%20Visuals/Distribtion_Plot.png)
