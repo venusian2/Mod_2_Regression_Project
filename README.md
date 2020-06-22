@@ -34,7 +34,7 @@ There were many things that needed to be cleaned up in our Dataset. First we dro
 
 ## Feature Engineering
 
-This was the biggest limitation to this DataSet. We could not create too many features as a majority of the Data was categorical. We were able to create a feature pertaining to how many years the person worked for the City. Other than that we mainly had to work with Dummy variables, we createdd them for all of the different agencies. Upon looking at all the different jobs in the Title Description column we had to limit dummy variables as it the amount would overload the OLS model and not give us a model. To make a good model based on this data we created dummy variable for all of the Title Descriptions and then looped through all of them and found the Jobs that gave us the highest R_squared value when compared to Salary and added them in to our model. This greatly boosted the R_squared of our model.
+This was the biggest limitation to this DataSet. We could not create too many features as a majority of the Data was categorical. We were able to create a feature pertaining to how many years the person worked for the City. Other than that we mainly had to work with Dummy variables, we created them for all of the different agencies. Upon looking at all the different jobs in the Title Description column we had to limit dummy variables as it the amount would overload the OLS model and not output a model. To make a good model based on this data we created dummy variables for all of the Title Descriptions and then looped through all of them and found the Jobs that gave us the highest R_squared value when compared to Salary and added them in to our model. This greatly boosted the R_squared of our model.
 
 ## Linear Models
 
