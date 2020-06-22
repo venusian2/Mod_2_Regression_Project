@@ -43,3 +43,19 @@ We did three different Regression Models, a Linear, a Lasso, and a Ridge. Once w
 ## Conclusion
  
 ![](Distribtion_Plot.png)
+
+![](Probability_Plot.png)
+
+We were able to create a model that predicted the test data within 0.642 Standard Deviations. The MSE And RMSE of the Training and Test Data were very similar leading us to believe that the model was fairly good even if it was not the most accurate.
+
+## Use Case Insights
+
+* There has been a rise in Average Salary every year in the dataset 
+* If you wanted to Retire Early the best Agencies to go into are as follows
+ * Police Department
+ * Department of Education
+ * Fire Department
+* If you want to be in the Top earning Agencies focus on jobs in the folloowing Agencies
+ * Office Of Colletive Bargaining
+ * Financial Info Svcs Agency
+ * Office of the Actuary
