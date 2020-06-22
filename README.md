@@ -52,10 +52,10 @@ We were able to create a model that predicted the test data within 0.642 Standar
 
 * There has been a rise in Average Salary every year in the dataset 
 * If you wanted to Retire Early the best Agencies to go into are as follows
- * Police Department
- * Department of Education
- * Fire Department
+  * Police Department
+  * Department of Education
+  * Fire Department
 * If you want to be in the Top earning Agencies focus on jobs in the folloowing Agencies
- * Office Of Colletive Bargaining
- * Financial Info Svcs Agency
- * Office of the Actuary
+  * Office Of Colletive Bargaining
+  * Financial Info Svcs Agency
+  * Office of the Actuary
